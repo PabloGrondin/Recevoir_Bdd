@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pablo.recevoir_bdd.MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Hello World!"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="TextView"
+         />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteY="279dp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nom"
+        android:hint="Nom"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prenom"
+        android:hint="Prenom"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id"
+        android:hint="ID"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoyer les data"
+        android:id="@+id/buttonSend"/>
+
+</LinearLayout>
